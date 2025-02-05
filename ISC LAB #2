@@ -6,7 +6,7 @@
   sort -r RED.txt > REVERSEDRED.txt
 4. Remove Consecutive Dupilcate in Given file 
   uniq RED.txt
-5. Display the first 10 lines lf a File
+5. Display the first 10 lines in a File
   Head RED.txt
 6. Display the last 10 lines in File
   tail RED.txt
