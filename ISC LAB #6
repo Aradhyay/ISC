@@ -15,6 +15,7 @@ A.
 B.
 1.Write the program
     nano test_program_2.c
+      #include<studio.h>
         int a,b,sum;
           printf("enter two number\n");
           scanf("%d %d", &a, &b);
