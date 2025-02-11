@@ -23,3 +23,19 @@ B.
           sum=a+b;
           printf("sum=%d",sum);
         }
+2.Compile the programme we use gcc (GNU compiler collection) to compile the program
+    gcc test_program_2.c -o test_program_2
+3.Run the program
+        ./test_program
+C.
+1.Write the program
+       #include<stdio.h>
+        void main( )
+        {
+          int a,b,sum;
+          printf("enter two number");
+          scanf("%d %d", &a, &b);
+          sum=a+b;
+          printf("sum=%d",sum);
+        }2.Compile the programme we use gcc (GNU compiler collection) to compile the program
+    gcc test_program.c -o test_program
