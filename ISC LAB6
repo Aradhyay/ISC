@@ -14,15 +14,13 @@ A.
         ./test_program
 B.
 1.Write the program
-       #include<stdio.h>
-        void main( )
-        {
-          int a,b,sum;
+    nano test_program_2.c
+        int a,b,sum;
           printf("enter two number\n");
           scanf("%d %d", &a, &b);
           sum=a+b;
           printf("sum=%d",sum);
-          printf("\nsean\n")
+          printf("\nsean\n");
         }
 2.Compile the programme we use gcc (GNU compiler collection) to compile the program
     gcc test_program_2.c -o test_program_2
@@ -30,6 +28,7 @@ B.
         ./test_program_2
 C.
 1.Write the program
+    nano test_program_3.c
        #include<stdio.h>
         void main( )
         {
@@ -39,7 +38,7 @@ C.
           scanf("%d %f", &a, &b);
           sum=a+b;
           printf("sum=%f",sum);
-          printf("\nsean\n")
+          printf("\nsean\n");
         }
 2.Compile the programme we use gcc (GNU compiler collection) to compile the program
     gcc test_program_3.c -o test_program_3
