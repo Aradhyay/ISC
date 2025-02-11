@@ -18,24 +18,30 @@ B.
         void main( )
         {
           int a,b,sum;
-          printf("enter two number");
+          printf("enter two number\n");
           scanf("%d %d", &a, &b);
           sum=a+b;
           printf("sum=%d",sum);
+          printf("\nsean\n")
         }
 2.Compile the programme we use gcc (GNU compiler collection) to compile the program
     gcc test_program_2.c -o test_program_2
 3.Run the program
-        ./test_program
+        ./test_program_2
 C.
 1.Write the program
        #include<stdio.h>
         void main( )
         {
-          int a,b,sum;
-          printf("enter two number");
-          scanf("%d %d", &a, &b);
+          int a;
+          float b, sum;
+          printf("enter two number\n");
+          scanf("%d %f", &a, &b);
           sum=a+b;
-          printf("sum=%d",sum);
-        }2.Compile the programme we use gcc (GNU compiler collection) to compile the program
-    gcc test_program.c -o test_program
+          printf("sum=%f",sum);
+          printf("\nsean\n")
+        }
+2.Compile the programme we use gcc (GNU compiler collection) to compile the program
+    gcc test_program_3.c -o test_program_3
+3.Run the program
+        ./test_program_3
