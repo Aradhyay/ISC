@@ -1,0 +1,25 @@
+A.
+1.Writing, completeing and executing a c program in linux
+    create a .c file on text editor line nano, vi or gedit
+    say for nano
+    nano test_program.c
+        #include <stdio.h>
+        void main(){
+        printf("Hello World /n");
+    }
+    to save hit Ctrl + X, verify by entering "Y"
+2.Compile the programme we use gcc (GNU compiler collection) to compile the program
+    gcc test_program.c -o test_program
+3.Run the program
+        ./test_program
+B.
+1.Write the program
+       #include<stdio.h>
+        void main( )
+        {
+          int a,b,sum;
+          printf("enter two number");
+          scanf("%d %d", &a, &b);
+          sum=a+b;
+          printf("sum=%d",sum);
+        }
